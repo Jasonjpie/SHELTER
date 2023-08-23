@@ -1,6 +1,7 @@
+'use client'
+
 import './globals.css'
 import type { Metadata } from 'next'
-
 
 export const metadata: Metadata = {
   title: 'Shelter',
@@ -14,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='max-w-[1440px] w-full mx-auto'>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
