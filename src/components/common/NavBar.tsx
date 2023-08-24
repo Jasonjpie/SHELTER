@@ -28,7 +28,7 @@ const NavBar = ({dark = false, transparent = false}: Props) => {
         }
     })
   return (
-    <div className={`w-full ${transparent && transparency ? 'bg-transparent':''} fixed top-0`}>
+    <div className={`w-full z-50 ${transparent && transparency ? 'bg-transparent':'bg-white'} fixed top-0`}>
         <Container>
             <div className="flex justify-between p-3">
                 <div className="text-primary text-5xl font-bold">

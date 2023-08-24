@@ -1,13 +1,13 @@
 'use client'
 import NavBar from "@/components/common/NavBar"
 import Footer from "@/components/common/Footer"
+import HeroSection from "@/components/homepage/HeroSection"
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
-      <div className="w-full h-[100vh]">
-      </div>
+      <NavBar transparent={true}/>
+      <HeroSection />
       <Footer />
     </div>
   )
