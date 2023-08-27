@@ -67,3 +67,21 @@ export const architecturalDesign = [
         image:'/images/services/hero-services-2.jpg'
     },
 ]
+
+export const services = [
+    {
+        name:'SPACE PLANNING',
+        description:'Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        icon:'/icons/plan.svg'
+    },
+    {
+        name:'CONSTRUCTION',
+        description:'Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        icon:'/icons/construction.svg'
+    },
+    {
+        name:'INTERIOR DESIGN',
+        description:'Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        icon:'/icons/interior-design.svg'
+    },
+]
