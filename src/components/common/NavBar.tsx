@@ -1,3 +1,4 @@
+"use client"
 import { Navigations } from "@/data"
 import Link from "next/link"
 import { Routes } from "../../../Routes"

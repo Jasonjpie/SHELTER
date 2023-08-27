@@ -17,7 +17,7 @@ const config: Config = {
         primary:'#1090CB'
       },
       fontFamily:{
-        'poppins':["Poppins"]
+        'poppins':['Poppins','sans-serif']
       }
     },
   },
