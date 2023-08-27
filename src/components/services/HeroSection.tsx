@@ -7,7 +7,7 @@ type Props = {}
 const HeroSection = (props: Props) => {
   return (
     <div className="grid grid-cols-12 gap-5 w-full min-h-[500px] lg:min-h-[1000px] mt-24">
-        <div className="col-span-4 22xl:col-span-5 relative h-[90%]">
+        <div className="col-span-4 2xl:col-span-5 relative h-[90%]">
             <Image className="object-cover" placeholder="blur" src={heroServices1} fill alt=''/>
         </div>
         <div className="col-span-8 2xl:col-span-7 flex flex-col gap-2 justify-end h-full">

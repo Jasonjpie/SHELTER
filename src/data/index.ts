@@ -40,3 +40,30 @@ export const Designs = [
         color:'#8E41B2'
     },
 ]
+
+export const architecturalDesign = [
+    {
+        id:1,
+        name:'Architectural Design',
+        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        image:'/images/services/hero-services-2.jpg'
+    },
+    {
+        id:2,
+        name:'Architectural Design',
+        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        image:'/images/services/hero-services-2.jpg'
+    },
+    {
+        id:3,
+        name:'Architectural Design',
+        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        image:'/images/services/hero-services-2.jpg'
+    },
+    {
+        id:4,
+        name:'Architectural Design',
+        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        image:'/images/services/hero-services-2.jpg'
+    },
+]
