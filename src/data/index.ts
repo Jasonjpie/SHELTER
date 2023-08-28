@@ -85,3 +85,36 @@ export const services = [
         icon:'/icons/interior-design.svg'
     },
 ]
+
+export const teams = [
+    {
+        name:'SAMUEL MARK',
+        image:'/images/about-us/teams/profile_1.jpg',
+        role:'Lead Designer'
+    },
+    {
+        name:'SAMUEL MARK',
+        image:'/images/about-us/teams/profile_2.jpg',
+        role:'Lead Designer'
+    },
+    {
+        name:'SAMUEL MARK',
+        image:'/images/about-us/teams/profile_3.jpg',
+        role:'Lead Designer'
+    },
+    {
+        name:'SAMUEL MARK',
+        image:'/images/about-us/teams/profile_4.jpg',
+        role:'Lead Designer'
+    },
+    {
+        name:'SAMUEL MARK',
+        image:'/images/about-us/teams/profile_5.jpg',
+        role:'Lead Designer'
+    },
+    {
+        name:'SAMUEL MARK',
+        image:'/images/about-us/teams/profile_6.jpg',
+        role:'Lead Designer'
+    },
+]
