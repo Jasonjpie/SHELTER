@@ -118,3 +118,21 @@ export const teams = [
         role:'Lead Designer'
     },
 ]
+
+export const faq = [
+    {
+        id:1,
+        question:'can I propose my own design?',
+        description:'Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+    },
+    {
+        id:2,
+        question:'How many day\'s on average will it take to finish a design? ',
+        description:'Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+    },
+    {
+        id:3,
+        question:'How could I know a design is what I\'m looking for?',
+        description:'Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+    },
+]
