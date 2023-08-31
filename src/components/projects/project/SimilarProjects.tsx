@@ -1,3 +1,4 @@
+import { projects } from "@/data"
 import Project from "../Project"
 import Container from "@/components/common/Container"
 type Props = {}
@@ -9,8 +10,8 @@ const SimilarProjects = (props: Props) => {
             <div className="font-bold text-4xl">SIMILAR PROJECTS</div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-16">
                 {
-                    Array.from({length:3}).map((_, index) =>
-                    <Project key={index} />
+                    projects.slice(0, 3).map((project, index) =>
+                    <Project key={index} project={project}/>
                     )
                 }
             </div>

@@ -1,21 +1,32 @@
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import { FaPlus } from "react-icons/fa"
 import heroImage from '../../../public/images/hero-image.jpg'
-type Props = {}
+import Link from "next/link"
+import { Routes } from "../../../Routes"
 
-const Project = (props: Props) => {
+type Props = {
+  project:{
+        id:number,
+        name:string,
+        image:string,
+        description:string,
+        detailDescription:string
+      }
+}
+
+const Project = ({project}: Props) => {
   return (
-    <div className="flex flex-col gap-3">
+    <Link href={`${Routes.PROJECTS}/${project.id}`} className="flex flex-col gap-3">
         <div className="relative w-full min-h-[500px] aspect-video">
-            <Image placeholder="blur" src={heroImage} fill alt=''/>
+            <Image src={project.image} fill alt=''/>
             <button className="absolute text-primary bottom-0 right-0 flex items-center gap-3 px-5 py-3 bg-white">
                 <div className="text-sm font-bold">MORE</div>
                 <FaPlus/>
             </button>
         </div>
         <div className="font-bold text-sm">Interior</div>
-        <div className="text-xl">House design with amazing open sky view</div>           
-    </div>
+        <div className="text-xl">{project.name}</div>           
+    </Link>
   )
 }
 

@@ -29,9 +29,9 @@ const HeroSection = (props: Props) => {
   return (
     <div  className="relative w-full h-[100vh] mb-44">
         <div ref={container} className="flex absolute top-0 w-full h-[100vh] scroll-smooth overflow-x-hidden">    
-            {images.map((image, index) => 
-            <div className="relative shrink-0 w-full h-[100vh]">
-                <Image key={index} className=' object-cover' src={image} fill alt='' />
+            {images.map((image, _index) => 
+            <div key={_index} className="relative shrink-0 w-full h-[100vh]">
+                <Image className=' object-cover' src={image} fill alt='' />
             </div>)}
         </div>
         <Container>
@@ -43,7 +43,7 @@ const HeroSection = (props: Props) => {
                     </button>
                     <div className="flex gap-2 lg:gap-5">
                         {
-                        images.map((_, _index) => <button onClick={() => handleClick(_index)} className={`w-3 h-3 rounded-full ${index === _index ? 'bg-gray-400':'bg-gray-200'}`}/>)
+                        images.map((_, _index) => <button key={_index} onClick={() => handleClick(_index)} className={`w-3 h-3 rounded-full ${index === _index ? 'bg-gray-400':'bg-gray-200'}`}/>)
                         }
                     </div>
                     <button disabled={index === images.length - 1} onClick={() => handleScroll(true)} className="flex items-center gap-5 p-5">
