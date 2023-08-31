@@ -10,8 +10,8 @@ export default function Layout({
 }) {
   return (
     <div>
-      <NavBar/>
-      <Container>{children}</Container>
+      <NavBar transparent={true}/>
+      <div>{children}</div>
       <Footer />
     </div>
   )

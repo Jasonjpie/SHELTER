@@ -1,9 +1,11 @@
 
+import Container from "../common/Container"
 import Project from "./Project"
 type Props = {}
 
 const ExploreProjects = (props: Props) => {
   return (
+    <Container>
         <div className="flex flex-col gap-8 items-center mt-24">
             <div className="flex flex-col items-center">
                 <div className="font-bold text-4xl">EXPLORE PROJECTS</div>
@@ -18,6 +20,7 @@ const ExploreProjects = (props: Props) => {
             </div>
             <button className="text-white px-10 py-4 bg-gradient-to-br from-[#696CE6] to-[#1C1F9F] mt-10 lg:mt-16">Discover More</button>
         </div>
+    </Container>
   )
 }
 
