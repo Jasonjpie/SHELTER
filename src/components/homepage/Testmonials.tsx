@@ -29,8 +29,8 @@ const Testmonials = (props: Props) => {
                 <div className="w-[60%] h-fit relative">
                     <div className=" w-full bg-white rounded-2xl divide-y shadow-2xl border p-8 z-10">
                         <div className="flex flex-col pb-10">
-                            <div><CgQuote  className='text-[#FFC700]'/></div>
-                            <div>Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
+                            <Image className="pb-5 object-cover" src='/icons/quote.svg' width={70} height={70} alt='' />
+                            <div className="font-semibold">Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
                         </div>
                         <div className="flex justify-between py-3">
                             <div className="flex gap-2 items-center">
