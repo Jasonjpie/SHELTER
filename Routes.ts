@@ -3,5 +3,5 @@ export enum Routes {
     PROJECTS = '/projects',
     SERVICES = '/services',
     ABOUTUS = '/about-us',
-    CONTACTUS = '/contact-us'
+    CONTACTUS = '/#contact-us'
 }

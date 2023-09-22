@@ -7,6 +7,8 @@ type Props = {}
 
 const HeroSection = (props: Props) => {
   const [ index, setIndex ] = useState(0)
+  const images = ['/images/services/hero-services-1.jpg','/images/services/hero-services-2.jpg','/images/design-1.jpg','/images/design-2.jpg','/images/design-3.jpg']
+
   return (
     <div className="w-full h-full bg-gradient-to-br from-[#74C3FF] to-white">
       <Container>
@@ -22,13 +24,13 @@ const HeroSection = (props: Props) => {
           <div className="flex flex-col items-start lg:items-end gap-5 lg:flex-1">
             <div className="flex gap-5">
               <div className="relative lg:w-[400px] w-[60vw] lg:h-[400px] h-[60vw] ">
-               <Image placeholder="blur" className="relative z-20 rounded-[44px] object-cover" src={heroImage} fill alt="" />
+               <Image className="relative z-20 rounded-[44px] object-cover" src={images[index]} fill alt="" />
                <div className="absolute -top-16 -left-20 lg:w-[400px] w-[60vw] lg:h-[400px] h-[60vw] ">
-                <Image placeholder="blur" className="relative z-0 rounded-[44px] object-cover" src={heroImage} fill alt="" />
+                <Image className="relative z-0 rounded-[44px] object-cover" src={images[index]} fill alt="" />
                </div>
               </div>
               <div className="flex flex-col justify-center gap-5">
-                {Array.from({length:6}).map((_, _index) => <button key={_index} onClick={() => setIndex(_index)} className={`w-3 h-3 rounded-full ${_index === index ? "bg-[#1D1D1D]":"bg-white"} `}></button>)}
+                {Array.from({length:images.length}).map((_, _index) => <button key={_index} onClick={() => setIndex(_index)} className={`w-3 h-3 rounded-full ${_index === index ? "bg-[#1D1D1D]":"bg-white"} `}></button>)}
               </div>
             </div>
             <div className="text-lg lg:text-right">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>

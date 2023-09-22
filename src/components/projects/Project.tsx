@@ -6,19 +6,17 @@ import { Routes } from "../../../Routes"
 
 type Props = {
   project:{
-        id:number,
+        id:string,
         name:string,
         image:string,
-        description:string,
-        detailDescription:string
       }
 }
 
 const Project = ({project}: Props) => {
   return (
-    <Link href={`${Routes.PROJECTS}/${project.id}`} className="flex flex-col gap-3">
+    <Link href={`https://jjp-beta.vercel.app/projects/${project.id}`} className="flex flex-col gap-3">
         <div className="relative w-full min-h-[500px] aspect-video">
-            <Image src={project.image} fill alt=''/>
+            <Image className="object-cover" src={project.image} fill alt=''/>
             <button className="absolute text-primary bottom-0 right-0 flex items-center gap-3 px-5 py-3 bg-white">
                 <div className="text-sm font-bold">MORE</div>
                 <FaPlus/>

@@ -1,6 +1,9 @@
 import Image from "next/image"
 import heroImage from "../../../public/images/about-us/hero-about-us.png"
 import  { TiPlus } from 'react-icons/ti'
+import Link from "next/link"
+import { Routes } from "../../../Routes"
+
 type Props = {}
 
 const HeroSection = (props: Props) => {
@@ -13,7 +16,9 @@ const HeroSection = (props: Props) => {
             <div className="flex-1 flex flex-col items-start gap-10 lg:gap-16 p-10">
                 <div className="font-bold text-4xl">COMMERCIAL AND PUBLIC USE ARCHITECTURE</div>
                 <div className="text-base">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
-            <button className="px-10 py-3 text-white bg-gradient-to-br from-[#696CE6] to-[#1C1F9F]">Contact Us</button>
+                <Link className={`bg-primary text-white ml-10 rounded-lg px-10 py-3`} href={Routes.CONTACTUS}>
+                    Contact Us
+                </Link> 
             </div>
         </div>
         <div className="flex flex-wrap justify-evenly gap-5">

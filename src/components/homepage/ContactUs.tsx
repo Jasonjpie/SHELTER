@@ -3,7 +3,7 @@ type Props = {}
 
 const ContactUs = (props: Props) => {
   return (
-    <div className="w-full bg-[#E8F4FA]">
+    <div id="contact-us" className="w-full bg-[#E8F4FA]">
         <Container>
             <div className="flex flex-col items-center gap-10 py-44">
                 <div className="text-center text-4xl font-semibold max-w-md">Want your dream house? Contact Us</div>

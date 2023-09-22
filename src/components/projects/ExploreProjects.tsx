@@ -1,5 +1,5 @@
 
-import { projects } from "@/data"
+import { Projects } from "@/data"
 import Container from "../common/Container"
 import Project from "./Project"
 type Props = {}
@@ -14,7 +14,7 @@ const ExploreProjects = (props: Props) => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-16">
                 {
-                    projects.map((project, index) =>
+                    Projects.map((project, index) =>
                     <Project key={index} project={project} />
                     )
                 }
