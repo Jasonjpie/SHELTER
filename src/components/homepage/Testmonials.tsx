@@ -9,12 +9,12 @@ type Props = {}
 const Testmonials = (props: Props) => {
   return (
     <Container>
-        <div className="flex flex-wrap lg:flex-nowrap gap-10">
+        <div className="flex flex-wrap lg:flex-nowrap gap-10" id="Testimonial">
             <div className="relative w-full lg:max-w-[50%] ">
                 <div className=" flex flex-col gap-10 max-w-md mx-auto p-2 lg:p-10">
                     <div className="text-primary text-xl font-medium">TESTMONIALS</div>
                     <div className="font-semibold text-4xl">Look What Our Customers Say!</div>
-                    <div className="text-lg">Rorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    <div className="text-lg font-semibold">Twilight Staging & Design.</div>
                     <div className="flex gap-8">
                         <button className="p-4 rounded-full border border-primary">
                         <BsArrowLeft className='text-primary'/>
@@ -30,21 +30,22 @@ const Testmonials = (props: Props) => {
                     <div className=" w-full bg-white rounded-2xl divide-y shadow-2xl border p-8 z-10">
                         <div className="flex flex-col pb-10">
                             <Image className="pb-5 object-cover" src='/icons/quote.svg' width={70} height={70} alt='' />
-                            <div className="font-semibold">Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
+                            <div className="font-semibold">Jason&apos;s exceptional workmanship, professionalism, integrity, and dedication make him not just a contractor but a trusted friend in the industry.</div>
                         </div>
                         <div className="flex justify-between py-3">
                             <div className="flex gap-2 items-center">
                                 <div className="relative w-8 h-8 rounded-full">
                                     <Image className="rounded-full object-cover" src='/images/profile.jpg' fill alt='' />
                                 </div>
-                                <div>Jeno Wagaye</div>
+                                <div>Twilight Staging & Design</div>
                             </div>
                             <div className="flex items-center gap-2">
                                 <AiFillStar className='text-[#FFC700]' />
                                 <AiFillStar className='text-[#FFC700]' />
                                 <AiFillStar className='text-[#FFC700]' />
                                 <AiFillStar className='text-[#FFC700]' />
-                                <AiOutlineStar />
+                                <AiFillStar className='text-[#FFC700]' />
+                                {/* <AiOutlineStar /> */}
                             </div>
                             
                         </div>

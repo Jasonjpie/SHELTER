@@ -28,16 +28,34 @@ export const Navigations = [
 
 export const Designs = [
     {
-        image:design_1Image,
-        color:'#08D3BB'
+        image: "https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_47_of_50_ze4rn1.jpg",
+        color:'#08D3BB',
+        desc_1: "Introducing the 'Beck' Home Project",
+        desc_2:"Crafting Dream Homes for a Brighter Tomorrow",
+        desc_3: "We craft homes with lasting memories in mind, prioritizing quality and sustainability for your family.",
+        desc_4: "Celebrate life in our thoughtfully designed homes, where quality and sustainability cater to your family's needs.",
+        title: "At 'Beck,' ",
+        link: "https://jjp-beta.vercel.app/projects/1"
     },
     {
-        image:design_2Image,
-        color:'#1090CB'
+        image: "https://res.cloudinary.com/desqmglcs/image/upload/v1692282219/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-53_xmzbbu.jpg",
+        color:'#08D3BB',
+        desc_1: "Introducing the 'Fiske' Home Project",
+        desc_2:"Crafting Dream Homes for a Brighter Tomorrow",
+        desc_3: "We create homes for cherished memories, prioritizing quality and sustainability for your family's comfort.",
+        desc_4: "'Fiske' - Where Convenience Meets Comfort. Explore a modern living community designed for easy access to schools, shopping, and more.",
+        title: "At 'Fiske,' ",
+        link: "https://jjp-beta.vercel.app/projects/2"
     },
     {
-        image:design_3Image,
-        color:'#8E41B2'
+        image:  "https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg",
+        color:'#08D3BB',
+        desc_1: "Introducing the 'SunsweptDr' Home Project",
+        desc_2:"Crafting Dream Homes for a Brighter Tomorrow",
+        desc_3: "we create homes that last, with a focus on quality and sustainability for your family's well-being.",
+        desc_4: "SunsweptDr' -  Where Comfort Meets Convenience. Discover a modern living community designed for easy living.",
+        title: "At 'SunsweptDr,' ",
+        link: "https://jjp-beta.vercel.app/projects/8"
     },
 ]
 

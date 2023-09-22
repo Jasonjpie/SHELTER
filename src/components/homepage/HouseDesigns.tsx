@@ -20,7 +20,7 @@ const HouseDesigns = (props: Props) => {
         <div className=" w-full flex flex-col gap-0">
           {
               Designs.map((design, index) => 
-                <Design key={index} design={design} position={index % 2 === 0 ? '-right-44':'-left-44'} color={index % 2 === 0 ? '#DED9FF':'#F3FFD9'}/>
+                <Design key={index} design={design } position={index % 2 === 0 ? '-right-44':'-left-44'} color={index % 2 === 0 ? '#DED9FF':'#F3FFD9'} />
               )
           }
         </div>

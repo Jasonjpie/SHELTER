@@ -14,7 +14,7 @@ type Props = {
 
 const Project = ({project}: Props) => {
   return (
-    <Link href={`https://jjp-beta.vercel.app/projects/${project.id}`} className="flex flex-col gap-3">
+    <Link href={`https://jjp-beta.vercel.app/projects/${project.id}`} className="flex flex-col gap-3" target="_blank">
         <div className="relative w-full min-h-[500px] aspect-video">
             <Image className="object-cover" src={project.image} fill alt=''/>
             <button className="absolute text-primary bottom-0 right-0 flex items-center gap-3 px-5 py-3 bg-white">

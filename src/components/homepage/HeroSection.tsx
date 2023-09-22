@@ -15,7 +15,7 @@ const HeroSection = (props: Props) => {
         <div className="flex gap-10 lg:gap-0 flex-wrap lg:flex-nowrap lg:min-h-[100vh] justify-between items-center p-5 pt-32">
           <div className="lg:flex-1 h-fit flex flex-col gap-10">
             <div className="font-bold text-4xl leading-relaxed">TRANSFORMING SPACES INTO WORKS FOR ART</div>
-            <div className="leading-loose text-xl">Borem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. </div>
+            <div className="leading-loose text-xl">We go beyond aesthetics, emphasizing sustainability, functionality, and cutting-edge technology in our designs. Our spaces combine beauty with purpose, enhancing comfort and enjoyment. </div>
             <div className="flex flex-wrap gap-3">
               <button className="text-primary bg-white rounded-lg px-10 py-3 border border-primary">View Projects</button>
               <button className="bg-primary rounded-lg text-white px-10 py-3">Contact Us</button>
@@ -33,7 +33,7 @@ const HeroSection = (props: Props) => {
                 {Array.from({length:images.length}).map((_, _index) => <button key={_index} onClick={() => setIndex(_index)} className={`w-3 h-3 rounded-full ${_index === index ? "bg-[#1D1D1D]":"bg-white"} `}></button>)}
               </div>
             </div>
-            <div className="text-lg lg:text-right">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+            <div className="text-lg lg:text-right">Our projects showcase our architectural and design excellence, blending functionality with beauty, and harmonizing nature with modern living. We believe in creating spaces that enrich the soul and inspire a deep sense of belonging.</div>
             <button className="flex items-center gap-3 border border-black rounded-full px-5 py-3">
               <div>Explore a project</div>
               <BsArrowUpRight />
