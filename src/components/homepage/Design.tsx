@@ -22,7 +22,7 @@ const Design = ({ design, position, color }: Props) => {
                 </div>
                 <div className="font-semibold text-2xl max-w-md"> <span className="text-primary">{design.title}</span>  {design.desc_3} </div>
                 <div className="max-w-md">{design.desc_4}</div>
-                <Link href={design.link} className="bg-primary text-white rounded-lg px-8 py-2 cursor-pointer" target="_blank">
+                <Link href={design.link} className="bg-primary text-white rounded-lg px-8 py-2 relative z-50" target="_blank">
                    Go to Project
                 </Link>
             </div>

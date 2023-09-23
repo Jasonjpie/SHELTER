@@ -26,7 +26,7 @@ const HeroSection = (props: Props) => {
               <div className="relative lg:w-[400px] w-[60vw] lg:h-[400px] h-[60vw] ">
                <Image className="relative z-20 rounded-[44px] object-cover" src={images[index]} fill alt="" />
                <div className="absolute -top-16 -left-20 lg:w-[400px] w-[60vw] lg:h-[400px] h-[60vw] ">
-                <Image className="relative z-0 rounded-[44px] object-cover" src={images[index]} fill alt="" />
+                <Image className="relative z-0 rounded-[44px] object-cover" src={images[(index + 1)%images.length]} fill alt="" />
                </div>
               </div>
               <div className="flex flex-col justify-center gap-5">

@@ -13,7 +13,8 @@ const Teams = (props: Props) => {
             {
                 teams.map((team, index) => 
                     <div key={index} className="flex flex-col items-center border shadow-md p-5 hover:scale-110">
-                        <Image className="rounded-full border border-dashed aspect-square object-cover border-red-500 p-3" src={team.image} width={200} height={200} alt={`${team.name}'s picture`}/>
+                        {team.image ? <Image className="rounded-full border border-dashed aspect-square object-cover border-red-500 p-3" src={team.image} width={200} height={200} alt={`${team.name}'s picture`}/>:
+                        <div className="flex items-center justify-center w-32 h-32 rounded-full bg-primary text-white text-6xl">{team.name.charAt(0)}{team.name.split(' ')[1].charAt(0)}</div> }
                         <div className="font-semibold text-2xl mt-10">{team.name}</div>
                         <div className="mb-10">{team.role}</div>
                     </div>

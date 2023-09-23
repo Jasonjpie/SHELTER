@@ -106,34 +106,29 @@ export const services = [
 
 export const teams = [
     {
-        name:'SAMUEL MARK',
-        image:'/images/about-us/teams/profile_1.jpg',
-        role:'Lead Designer'
+        name:'Jason Pietruszka',
+        image:'/images/jason_p.jpg',
+        role:'Project Manager'
     },
     {
-        name:'SAMUEL MARK',
-        image:'/images/about-us/teams/profile_2.jpg',
-        role:'Lead Designer'
+        name:'Alex M',
+        image:'',
+        role:'Project Manager'
     },
     {
-        name:'SAMUEL MARK',
-        image:'/images/about-us/teams/profile_3.jpg',
-        role:'Lead Designer'
+        name:'Ed P',
+        image:'',
+        role:'Project Manager'
     },
     {
-        name:'SAMUEL MARK',
-        image:'/images/about-us/teams/profile_4.jpg',
-        role:'Lead Designer'
+        name:'Lauren S',
+        image:'',
+        role:'Office Manager'
     },
     {
-        name:'SAMUEL MARK',
-        image:'/images/about-us/teams/profile_5.jpg',
-        role:'Lead Designer'
-    },
-    {
-        name:'SAMUEL MARK',
-        image:'/images/about-us/teams/profile_6.jpg',
-        role:'Lead Designer'
+        name:'Amalia E',
+        image:'',
+        role:'Office Administration'
     },
 ]
 
