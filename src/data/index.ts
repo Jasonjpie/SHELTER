@@ -89,17 +89,17 @@ export const architecturalDesign = [
 export const services = [
     {
         name:'SPACE PLANNING',
-        description:'Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        description:'Observe our mastery in reshaping environments, whether it\'s for commercial workplaces or residential settings. Find inspiration for your upcoming projects through our innovative solutions.',
         icon:'/icons/plan.svg'
     },
     {
         name:'ARCHITECTURAL DESIGN',
-        description:'Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        description:'Experience visionary architectural concepts that can ignite your imagination and shape your future projects in collaboration with us.',
         icon:'/icons/construction.svg'
     },
     {
         name:'INTERIOR DESIGN',
-        description:'Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        description:'Discover our proficiency in construction services, where we bring architectural visions to reality, turning your project dreams into tangible results',
         icon:'/icons/interior-design.svg'
     },
 ]
@@ -141,17 +141,17 @@ export const faq = [
     {
         id:1,
         question:'can I propose my own design?',
-        description:'Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+        description:'Absolutely! We encourage your design input and will work together to bring your vision to life.'
     },
     {
         id:2,
         question:'How many day\'s on average will it take to finish a design? ',
-        description:'Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+        description:'Design completion times vary based on project complexity. Typically, it ranges from 2 to 4 weeks. Specific timelines will be provided after assessing your project\'s requirements.'
     },
     {
         id:3,
         question:'How could I know a design is what I\'m looking for?',
-        description:'Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+        description:'We offer detailed design consultations and provide 3D renderings and blueprints for your review. Your input and feedback are essential throughout the process to ensure the final design aligns with your vision and needs.'
     },
 ]
 
