@@ -1,6 +1,7 @@
 "use client"
 import { Navigations } from "@/data"
 import Link from "next/link"
+import Image from "next/image"
 import { Routes } from "../../../Routes"
 import { usePathname } from 'next/navigation'
 import Container from "./Container"
@@ -32,9 +33,10 @@ const NavBar = ({ dark = false, transparent = false }: Props) => {
         <div className={`w-full z-50 ${transparent && transparency ? 'bg-transparent' : 'bg-white'} fixed top-0`}>
             <Container>
                 <div className="flex justify-between py-3">
-                    <div className="text-primary text-5xl font-bold">
+                    {/* <div className="text-primary text-5xl font-bold">
                         SHELTER
-                    </div>
+                    </div> */}
+                    <Image src="/images/shelter-logo.png" width={150} height={150} alt="logo" />
                     <div className="hidden lg:flex items-center gap-5">
                         {
                             Navigations.slice(0, 4).map(navigation =>

@@ -2,6 +2,7 @@ import Link from "next/link"
 import Container from "./Container"
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaHouzz, FaYoutube } from 'react-icons/fa'
 import { Routes } from "../../../Routes"
+import Image from "next/image"
 
 
 type Props = {}
@@ -14,7 +15,7 @@ const Footer = (props: Props) => {
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
             <div className="flex flex-col gap-3 items-start p-3">
               {/* <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div> */}
-              <div className="text-primary text-2xl font-bold">SHELTER</div>
+              <Image src="/images/shelter-logo.png" width={150} height={150} alt="logo" />
             </div>
             <div className="flex flex-col gap-3 p-3">
               <div className="font-bold">About Us</div>
