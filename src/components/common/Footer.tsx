@@ -32,7 +32,8 @@ const Footer = (props: Props) => {
             <div className="flex flex-col gap-3 p-3">
               <div className="font-bold">Contact Us</div>
               <div>North Hollywood, CA 91605, US. </div>
-              <div>+323-902-7266</div>
+              <div> +1 818-915-1831</div>
+              <div> jasonjpinc@gmail.com</div>
             </div>
             <div className="flex gap-3 items-end p-3">
               <div className="rounded-full p-3 shadow-lg border">
