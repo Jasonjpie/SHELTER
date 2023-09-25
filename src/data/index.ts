@@ -221,3 +221,25 @@ export const Projects = [
         "https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg",
     }
   ];
+
+
+  export const testmonials = [
+    {
+      name: "Twilight Staging & Design",
+      image: "Testimonial1.png",
+      testmony:
+        "Jason's workmanship, professionalism, integrity, and attention to detail make him a trusted friend in every project – a rare find in the industry. With a dedication to perfection, you'll be delighted for years to come with any project handled by Jason and JJP Construction.",
+    },
+    {
+      name: "Lauren Pietruszka",
+      image: "",
+      testmony:
+        "JJP AND HIS GOlandscapers team took my poorly done turf job and fixed it to be flawless! Jason is also full of excellent design ideas and suggestions",
+    },
+    {
+      name: "Devi Brown",
+      image: "",
+      testmony:
+        "Working with Jason and his team is an absolute joy. He consistently exceeds professional expectations, goes the extra mile for top-notch results, offers exceptional patience, and maintains rapid communication. We look forward to a long-lasting partnership with JJP Construction for our family's needs.",
+    },
+  ];
