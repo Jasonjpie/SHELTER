@@ -226,7 +226,7 @@ export const Projects = [
   export const testmonials = [
     {
       name: "Twilight Staging & Design",
-      image: "Testimonial1.png",
+      image: "/images/Testimonial1.png",
       testmony:
         "Jason's workmanship, professionalism, integrity, and attention to detail make him a trusted friend in every project – a rare find in the industry. With a dedication to perfection, you'll be delighted for years to come with any project handled by Jason and JJP Construction.",
     },

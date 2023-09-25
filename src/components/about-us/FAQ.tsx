@@ -15,7 +15,7 @@ const FAQ = (props: Props) => {
         }
     }
   return (
-    <div className="flex flex-col gap-10 mb-44">
+    <div id="faq" className="flex flex-col gap-10 mb-44">
         <div className="flex flex-col items-center gap-3 font-semibold">
             <div className="text-base text-[#929292]">IN CASE YOUR WONDERING</div>
             <div className="text-3xl lg:text-6xl">FAQ</div>

@@ -27,7 +27,6 @@ const Testmonials = (props: Props) => {
                 <div className=" flex flex-col gap-10 max-w-md mx-auto p-2 lg:p-10">
                     <div className="text-primary text-xl font-medium">TESTMONIALS</div>
                     <div className="font-semibold text-4xl">Look What Our Customers Say!</div>
-                    <div className="text-lg font-semibold">Twilight Staging & Design.</div>
                     <div className="flex gap-8">
                         <button onClick={() => scrollTo(false)} className="p-4 rounded-full border border-primary">
                             <BsArrowLeft className='text-primary'/>
@@ -50,7 +49,8 @@ const Testmonials = (props: Props) => {
                             <div className="flex justify-between py-3">
                                 <div className="flex gap-2 items-center">
                                     <div className="relative w-8 h-8 rounded-full">
-                                        <Image className="rounded-full object-cover" src='/images/profile.jpg' fill alt='' />
+                                        {testimonial.image ? <Image className="rounded-full object-cover" src={testimonial.image} fill alt='' />:
+                                        <div className="flex items-center justify-center w-8 h-8 bg-black text-white rounded-full">{testimonial.name.toUpperCase().charAt(0)}{testimonial.name.toUpperCase().split(' ')[1].charAt(0)}</div> }
                                     </div>
                                     <div>{testimonial.name}</div>
                                 </div>
