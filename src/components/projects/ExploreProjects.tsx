@@ -19,7 +19,7 @@ const ExploreProjects = (props: Props) => {
                     )
                 }
             </div>
-            <button className="text-white px-10 py-4 bg-gradient-to-br from-[#696CE6] to-[#1C1F9F] mt-10 lg:mt-16">Discover More</button>
+            <button className="text-white px-10 py-4 bg-primary from-[#696CE6] to-[#1C1F9F] mt-10 lg:mt-16">Discover More</button>
         </div>
     </Container>
   )

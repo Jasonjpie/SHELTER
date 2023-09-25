@@ -1,11 +1,11 @@
 "use client"
 import { Navigations } from "@/data"
 import Link from "next/link"
+import Image from "next/image"
 import { Routes } from "../../../Routes"
 import { usePathname } from 'next/navigation'
 import Container from "./Container"
 import { useEffect, useState } from "react"
-import Image from "next/image"
 
 type Props = {
     dark?: boolean,

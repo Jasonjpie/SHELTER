@@ -15,7 +15,7 @@ const HeroSection = (props: Props) => {
             </div>
             <div className="flex-1 flex flex-col items-start gap-10 lg:gap-16 p-10">
                 <div className="font-bold text-4xl">COMMERCIAL AND PUBLIC USE ARCHITECTURE</div>
-                <div className="text-base">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                <div className="text-base">Cultivating creativity across 20 unique locations, our team has poured over 900 hours of dedication into our work. We&apos;ve brought 30 stunning designs to life, and we&apos;re not stopping there. Currently, we&apos;re engaged in 50 exciting projects, transforming visions into reality.</div>
                 <Link className={`bg-primary text-white ml-10 rounded-lg px-10 py-3`} href={Routes.CONTACTUS}>
                     Contact Us
                 </Link> 
