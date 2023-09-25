@@ -33,7 +33,9 @@ const NavBar = ({ dark = false, transparent = false }: Props) => {
         <div className={`w-full z-50 ${transparent && transparency ? 'bg-transparent' : 'bg-white'} fixed top-0`}>
             <Container>
                 <div className="flex justify-between py-3">
-                    <Image src='/icons/shelter-logo.svg' width={200} height={200} alt="" />
+                <Link href={Routes.HOME}>
+                    <Image src='/icons/shelter-logo.svg' width={200} height={200} alt="shelter" />
+                    </Link>
                     <div className="hidden lg:flex items-center gap-5">
                         {
                             Navigations.slice(0, 4).map(navigation =>
