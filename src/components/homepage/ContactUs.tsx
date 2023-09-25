@@ -67,14 +67,14 @@ const ContactUs = (props: Props) => {
   return (
     <div id="contact-us" className="w-full bg-[#E8F4FA]">
       <Container>
-        <div className="flex flex-col items-center gap-10 py-44">
+        <div className="flex flex-col items-center w-[40%] mx-auto gap-10 py-44">
           <div className="text-center text-4xl font-semibold max-w-md">
             Want your dream house? Contact Us
           </div>
-          <form onSubmit={handleSubmit} id="contact-form">
-            <div className="flex gap-3 max-w-[50%] w-full">
+          <form className='w-full' onSubmit={handleSubmit} id="contact-form">
+            <div className="flex gap-3 w-full">
               <input
-                className="px-5 py-2 rounded-md "
+                className="w-full px-5 py-2 rounded-md "
                 type="text"
                 name="email"
                 placeholder="Enter Your Email"
