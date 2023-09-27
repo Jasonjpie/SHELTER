@@ -63,7 +63,7 @@ const ContactUs = (props: Props) => {
 
             // Use the EmailJS send method to send the form data
             emailjs
-                .send('service_e3gfj5u', 'template_lsf6ept', templateParams, 'lBEGkhwko5Z_AnqC5')
+                .send('service_1ewdayd', 'template_s1cnbtr', templateParams, 'D5maOIBS7PmgmBLyM')
                 .then((result) => {
                     console.log(result.text);
                     setSuccessMessage('Form sent successfully!');
