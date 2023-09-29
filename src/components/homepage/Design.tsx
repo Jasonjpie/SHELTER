@@ -9,10 +9,10 @@ type Props = {
 const Design = ({ design, position, color }: Props) => {
     return (
         <div className="relative flex flex-col lg:odd:flex-row-reverse lg:even:flex-row lg:gap-24 p-5 lg:p-16 overflow-clip">
-            <div className="flex-auto lg:flex-1 relative h-[500px]">
+            <div className="flex-auto lg:flex-1 relative h-[500px] mb-10 lg:mb-0">
                 <Image  className="object-cover" src={design.image} fill alt='' />
             </div>
-            <div className="flex-auto lg:flex-1 flex flex-col justify-end lg:odd:items-end items-start gap-16 h-[500px] ">
+            <div className="flex-auto lg:flex-1 flex flex-col justify-end lg:odd:items-end items-start gap-16 h-[500px]">
                 <div className="flex items-center gap-2">
                     <div style={{ backgroundColor: design.color }} className={`w-12 h-12 z-30 relative rounded-full`} />
                     <div className="flex flex-col">
