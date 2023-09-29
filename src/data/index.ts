@@ -62,27 +62,27 @@ export const Designs = [
 export const architecturalDesign = [
     {
         id:1,
-        name:'Architectural Design',
-        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-        image:'/images/services/hero-services-2.jpg'
+        name:'Site plan drawings',
+        description:'Elevate your architectural vision with our expert site plan drawings, meticulously crafted to transform your ideas into stunning, functional spaces.',
+        image:'/images/services/site-plan.jpg'
     },
     {
         id:2,
-        name:'Architectural Design',
-        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-        image:'/images/services/hero-services-2.jpg'
+        name:'Floor plan drawings',
+        description:'Elevate your architectural vision with our expertly crafted floor plan drawings, where precision and creativity harmonize to transform spaces into functional works of art. Trust us to bring your design dreams to life, enhancing both aesthetics and functionality in every project.',
+        image:'/images/services/floar_plan.png'
     },
     {
         id:3,
-        name:'Architectural Design',
-        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-        image:'/images/services/hero-services-2.jpg'
+        name:'Cross-sectional drawings',
+        description:"Within our architectural design services, we specialize in creating insightful cross-sectional drawings that unveil the hidden intricacies and structural brilliance of your project, providing a comprehensive view of your design's depth and functionality. Trust us to bring your vision to life, showcasing the beauty within every layer.",
+        image:'/images/services/cross-sectional.png'
     },
     {
         id:4,
-        name:'Architectural Design',
-        description:'Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-        image:'/images/services/hero-services-2.jpg'
+        name:'Landscape drawings',
+        description:'Transform your outdoor spaces with our landscaping drawings, merging creativity and precision to design captivating, functional environments that harmonize with nature, creating lush retreats. Trust us to craft your outdoor vision into a natural masterpiece.',
+        image:'/images/services/land-scape.png'
     },
 ]
 
