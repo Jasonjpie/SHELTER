@@ -1,6 +1,8 @@
 import Image from "next/image"
-import heroServices1 from "../../../public/images/services/hero-services-1.jpg"
-import heroServices2 from "../../../public/images/services/hero-services-2.jpg"
+import heroServices1 from "../../../public/images/services/shelter_1.png"
+import heroServices2 from "../../../public/images/services/shelter_2.png"
+import heroServices3 from "../../../public/images/services/shelter_3.png"
+import heroServices4 from "../../../public/images/services/shelter_4.png"
 import { BsArrowDown } from "react-icons/bs"
 type Props = {}
 
@@ -8,7 +10,7 @@ const HeroSection = (props: Props) => {
   return (
     <div className="grid grid-cols-12 gap-5 w-full min-h-[500px] lg:min-h-[1000px] mt-24">
         <div className="col-span-4 2xl:col-span-5 relative h-[90%]">
-            <Image className="object-cover" placeholder="blur" src={heroServices1} fill alt=''/>
+            <Image className="object-cover" placeholder="blur" src={heroServices4} fill alt=''/>
         </div>
         <div className="col-span-8 2xl:col-span-7 flex flex-col gap-2 justify-end h-full">
             <div className="flex flex-col items-end gap-5 lg:gap-10 h-[40%]">
@@ -24,7 +26,7 @@ const HeroSection = (props: Props) => {
             </div>
             <div className="flex items-center gap-5 sm:gap-32 lg:gap-72 h-[50%]">
                 <div className="relative w-[40%] h-full">
-                    <Image className="object-cover" placeholder="blur" src={heroServices2} fill alt=''/>  
+                    <Image className="object-cover" placeholder="blur" src={heroServices3} fill alt=''/>  
                 </div>
                 <div className="flex flex-col items-end gap-3">
                     <BsArrowDown size={50} />

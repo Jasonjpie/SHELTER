@@ -70,7 +70,7 @@ export const architecturalDesign = [
         id:2,
         name:'Floor plan drawings',
         description:'Elevate your architectural vision with our expertly crafted floor plan drawings, where precision and creativity harmonize to transform spaces into functional works of art. Trust us to bring your design dreams to life, enhancing both aesthetics and functionality in every project.',
-        image:'/images/services/floar_plan.png'
+        image:'/images/services/floarplan.png'
     },
     {
         id:3,
@@ -80,9 +80,9 @@ export const architecturalDesign = [
     },
     {
         id:4,
-        name:'Landscape drawings',
-        description:'Transform your outdoor spaces with our landscaping drawings, merging creativity and precision to design captivating, functional environments that harmonize with nature, creating lush retreats. Trust us to craft your outdoor vision into a natural masterpiece.',
-        image:'/images/services/land-scape.png'
+        name:'3D Modeling',
+        description: "Bring your ideas to life with our professional 3D modeling services. We specialize in creating realistic 3D models that help visualize and prototype your projects. Whether it's architectural designs, product concepts, or virtual environments, our experts will turn your vision into stunning 3D representations.",
+        image:'/images/services/shelter_5.png'
     },
 ]
 

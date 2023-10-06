@@ -1,5 +1,5 @@
 import Image from "next/image"
-import heroImage from "../../../public/images/about-us/hero-about-us.png"
+import heroImage from "../../../public/images/about-us/encinoAve.png"
 import  { TiPlus } from 'react-icons/ti'
 import Link from "next/link"
 import { Routes } from "../../../Routes"
@@ -8,7 +8,7 @@ type Props = {}
 
 const HeroSection = (props: Props) => {
   return (
-    <div className="flex flex-col gap-10 mt-24">
+    <div className="flex flex-col gap-10 mt-40">
         <div className="flex flex-col lg:flex-row h-full">
             <div className='flex-1 relative min-h-[400px] '>
                 <Image className="object-cover aspect-square " src={heroImage} fill alt=''/>
@@ -21,7 +21,7 @@ const HeroSection = (props: Props) => {
                 </Link> 
             </div>
         </div>
-        <div className="flex flex-wrap justify-evenly gap-5">
+        <div className="flex flex-wrap justify-evenly gap-5 mt-5">
             <div className="flex flex-col gap-5">
                 <div className="flex justify-center items-center">
                     <TiPlus size={30} className='text-primary'/>
