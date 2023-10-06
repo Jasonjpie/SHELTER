@@ -13,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/icons/shelter-logo.svg" type="image/svg" sizes='32x32' />
+      </head>
       <body className='font-poppins'>{children}</body>
     </html>
   )

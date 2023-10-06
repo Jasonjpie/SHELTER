@@ -12,7 +12,7 @@ const HeroSection = (props: Props) => {
     <div className="w-full h-full bg-gradient-to-br from-[#74C3FF] to-white">
       <Container>
         <div className="flex gap-10 lg:gap-0 flex-wrap lg:flex-nowrap lg:min-h-[100vh] justify-between items-center p-5 pt-32">
-          <div className="lg:flex-1 h-fit flex flex-col gap-10">
+          <div className="lg:flex-1 h-fit flex flex-col gap-10 order-2 lg:order-1">
             <div className="font-bold text-4xl leading-relaxed">TRANSFORMING SPACES INTO WORKS FOR ART</div>
             <div className="leading-loose text-xl">We go beyond aesthetics, emphasizing sustainability, functionality, and cutting-edge technology in our designs. Our spaces combine beauty with purpose, enhancing comfort and enjoyment. </div>
             <div className="flex flex-wrap gap-3">
@@ -20,11 +20,11 @@ const HeroSection = (props: Props) => {
               <Link href='/#contact-us' className="bg-primary rounded-lg text-white px-10 py-3">Contact Us</Link>
             </div>
           </div>
-          <div className="flex flex-col items-start lg:items-end gap-5 lg:flex-1">
+          <div className="flex flex-col items-start lg:items-end gap-5 lg:flex-1 order-1 lg:order-2">
             <div className="flex gap-5">
-              <div className="relative lg:w-[400px] w-[60vw] lg:h-[400px] h-[60vw] ">
+              <div className="relative lg:w-[400px] w-[80vw] lg:h-[400px] h-[60vw] mt-12">
                 <Image className="relative z-20 rounded-[44px] object-cover" src={images[index]} fill alt="" />
-                <div className="absolute -top-16 -left-20 lg:w-[400px] w-[60vw] lg:h-[400px] h-[60vw] ">
+                <div className="absolute -top-16 -left-20 lg:w-[400px] w-[80vw] lg:h-[400px] h-[60vw] ">
                   <Image className="relative z-0 rounded-[44px] object-cover" src={images[(index + 1) % images.length]} fill alt="" />
                 </div>
               </div>

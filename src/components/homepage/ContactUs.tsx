@@ -67,7 +67,7 @@ const ContactUs = (props: Props) => {
   return (
     <div id="contact-us" className="w-full bg-[#E8F4FA]">
       <Container>
-        <div className="flex flex-col items-center w-[40%] mx-auto gap-10 py-44">
+        <div className="flex flex-col items-center w-full lg:w-[40%] mx-auto gap-10 py-44">
           <div className="text-center text-4xl font-semibold max-w-md">
             Want your dream house? Contact Us
           </div>

@@ -38,7 +38,7 @@ const Testmonials = (props: Props) => {
                 </div>
             </div>
             <div className="relative w-full flex justify-center items-center lg:max-w-[50%] overflow-clip py-24">
-                <div className="w-[60%] h-fit relative">
+                <div className="lg:w-[60%] w-full h-fit relative">
                     <div ref={container} className="w-full h-fit flex items-start overflow-x-hidden scroll-smooth">
                         {testmonials.map((testimonial, index) => 
                         <div key={index} className="shrink-0 w-full bg-white rounded-2xl divide-y border p-8 z-10">
